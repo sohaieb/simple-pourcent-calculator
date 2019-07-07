@@ -1,0 +1,57 @@
+/** Global Styles **/
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    padding: 50px;
+}
+h1{
+    box-sizing: border-box;
+    width: 100%;
+}
+div.btn input {
+    display: table; 
+    margin: 10px 50px 5px;
+}
+
+div.form-group {
+    box-sizing: border-box;
+    margin: 10px 50px 5px;
+}
+div.form-group label {
+    display: table-row;
+}
+strong.error {
+    color: red;
+}
+div.btn {
+    margin: 10px 50px 5px;
+}
+/** Mobile Styles **/
+@media screen and (max-width: 620px){
+    h1 {
+        box-sizing: border-box;
+        padding: 50px 0px 50px 50px;
+    }
+    div.form-group{
+        width: 100%;
+        padding: 5px;
+        margin: 10px 0px 5px;
+    }
+    label{
+        display: block;
+        width: 100%;
+    }
+    div.form-group input {
+        width: 100%;
+    }
+    div.btn {
+        width: 100%;
+        margin: 10px 0px 5px;
+    }
+    div.btn input {
+        width: 100%;
+        margin: 0;
+    }
+}
