@@ -23,7 +23,7 @@ function resetElements(){
         resultatOutput.innerText = 0 + "%";
     }
 }
-
+//a
 /** functions implementation **/
 numberB.addEventListener('keyup',resetElements);
 btn.addEventListener('click',calculer);
