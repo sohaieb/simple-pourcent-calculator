@@ -23,7 +23,7 @@ function resetElements(){
         resultatOutput.innerText = 0 + "%";
     }
 }
-
+/** for git conflict **/
 /** functions implementation **/
 numberB.addEventListener('keyup',resetElements);
 btn.addEventListener('click',calculer);
